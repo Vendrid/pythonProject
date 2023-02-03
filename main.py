@@ -4,14 +4,14 @@ open_space = 'o'
 white_pawn = 'w'
 white_king = 'W'
 
-board = [['8', open_space, open_space, open_space, open_space, open_space, open_space, open_space, open_space],
-         ['7', open_space, open_space, open_space, white_king, open_space, open_space, open_space, open_space],
-         ['6', open_space, open_space, open_space, open_space, black_king, open_space, open_space, open_space],
+board = [['8', open_space, black_pawn, open_space, black_pawn, open_space, black_pawn, open_space, black_pawn],
+         ['7', black_pawn, open_space, black_pawn, open_space, black_pawn, open_space, black_pawn, open_space],
+         ['6', open_space, black_pawn, open_space, black_pawn, open_space, black_pawn, open_space, black_pawn],
          ['5', open_space, open_space, open_space, open_space, open_space, open_space, open_space, open_space],
          ['4', open_space, open_space, open_space, open_space, open_space, open_space, open_space, open_space],
-         ['3', open_space, open_space, open_space, open_space, open_space, open_space, open_space, open_space],
-         ['2', open_space, open_space, open_space, open_space, open_space, open_space, open_space, open_space],
-         ['1', open_space, open_space, open_space, open_space, open_space, open_space, open_space, open_space],
+         ['3', white_pawn, open_space, white_pawn, open_space, white_pawn, open_space, white_pawn, open_space],
+         ['2', open_space, white_pawn, open_space, white_pawn, open_space, white_pawn, open_space, white_pawn],
+         ['1', white_pawn, open_space, white_pawn, open_space, white_pawn, open_space, white_pawn, open_space],
          [' ', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', ]
          ]
 
